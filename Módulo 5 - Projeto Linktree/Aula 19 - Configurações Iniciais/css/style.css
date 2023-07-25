@@ -1,0 +1,8 @@
+body {
+    background-color: #1f1200;
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 50%;
+}

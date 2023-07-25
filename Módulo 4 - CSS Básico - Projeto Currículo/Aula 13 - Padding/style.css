@@ -1,0 +1,20 @@
+body {
+    background-color: #dfdfdf;
+}
+
+p {
+    color: #222222;
+}
+
+#fotoPrincipal {
+    width: 200px;
+    border: 2px solid #FFFFFF;    /* shorthand - simplifica o código */
+    border-radius: 50%; /* border-radius também aceita 4 valores referentes as bordas, permitindo criar vários formatos de borda */
+
+/*  border-width: 5px;
+    border-style: solid;
+    border-color: black;    */
+
+    margin: 30px;    /* shorthand - também podemos editar separadamente (top, right, bottom, left) */
+    padding: 10px;  /* espaçamento entre a margem e a borda */
+}
