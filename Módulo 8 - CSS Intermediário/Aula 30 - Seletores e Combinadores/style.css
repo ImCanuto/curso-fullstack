@@ -1,0 +1,25 @@
+.exemplo {
+    border: 2px solid;
+    padding: 5px;
+    margin: 20px;
+}
+
+.exemplo1 p.red {    /* Com esse seletor, a regra somente será aplicada para os parágrafos da classe red, ignorando outros elementos - ("combinators") */
+    color: red;
+}
+
+h1, h2, h3, h4{ /* Forma de estilizar mais de um elemento ou classes com as mesmas regras */
+    text-transform: uppercase;
+}
+
+.exemplo2 > p{  /* Com esse seletor, a regra somente será aplicada nos parágrafos "p" que forem "filhos diretos" dessa classe */
+    color: blue;
+}
+
+.exemplo3 + p{  /* Com esse seletor, a regra será aplicada somente no promeiro elemento "p" que for "irmão" da "div" com a classe "exemplo3" */
+    color: green;
+}
+
+.exemplo4 ~ p{  /* Com esse seletor, a regra será aplicada em todos os elementos "p" que forem "irmãos" da "div" com a classe "exemplo4" */
+    color: yellow;
+}
