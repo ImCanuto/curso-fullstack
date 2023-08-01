@@ -1,0 +1,11 @@
+ul {
+    background-color: gray;
+    padding: 10px;
+}
+
+ul li {
+    display: inline; /* Faz com que o display se torne inline, sendo que um display box ocuparia toda a área horizontal da tela*/
+    margin: 10px;
+}
+
+/* O display inline-box faz com que o objeto se comporte como uma linha, porém com as funcionalidades de uma box */
