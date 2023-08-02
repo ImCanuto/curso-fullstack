@@ -44,17 +44,19 @@ body {
 }
 
 .menu li a {
+    display: block;
     padding: 17px;
     color: white;
     text-decoration: none;
     font-size: 14px;
 }
 
-.menu li a:hover {
+.menu li:hover {
     background-color: rgb(255, 100, 0);
 }
 
-.menu li:hover .submenu {
+.menu > li:hover > .submenu,
+.submenu > li:hover > .submenu {
     display: block;
 }
 
@@ -62,7 +64,20 @@ body {
     background-color: rgb(255, 100, 0);
     display: none;
     position: absolute;
-    top: 34px;
+    top: 50px;
     left: 0;
+    min-width: 105%;    /* Define a  largura mínima, de acordo com a largura do objeto "pai" */
 }
 
+.submenu li:hover {
+    background-color: rgb(255, 85, 0);
+}
+
+.submenu li {
+    position: relative;
+}
+
+.submenu li .submenu {
+    top: 0;
+    left: 100%;
+}
