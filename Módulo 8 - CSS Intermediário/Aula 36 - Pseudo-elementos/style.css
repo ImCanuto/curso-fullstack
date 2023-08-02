@@ -1,0 +1,33 @@
+::selection {   /* Estilizar o que acontece ao selecionar algo ao clicar e arrastar com o mouse (somente cor e background) */
+    background: blueviolet;
+    color: white;
+}
+
+p::first-line {  /* Forma de declarar um pseudo objeto + Editar apenas a primeira linha de um texto */
+    color: orange;
+}
+
+p::first-letter {   /* Estilizar apenas a primeira letra */
+    color: red;
+    font-size: 50px;
+}
+
+h1::before {    /* Before: Permite adicionar algo antes/"atras" */
+    background: url(img/computer.png);
+    background-size: cover; /* Faz com que o backgroud ocupe todo o espaço selecionado */
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    content: "";    /* É obrigatório definir um "content" para o "before" */
+    margin-right: 15px;
+}
+
+h1::after {    /* Before: Permite adicionar algo depois/"na frente" */
+    background: url(img/computer.png);
+    background-size: cover; /* Faz com que o backgroud ocupe todo o espaço selecionado */
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    content: "";    /* É obrigatório definir um "content" para o "before" */
+    margin-left: 15px;
+}

@@ -1,0 +1,26 @@
+ul {
+    background-color: gray;
+    padding: 10px;
+}
+
+ul li {
+    display: inline;
+    margin: 10px;
+}
+
+.exemplos {
+    border: 2px solid black;
+}
+
+.exemplo1 {
+    visibility: hidden; /* Deixa de exibir o elemento, ocultando seu conteúdo, porém a área ocupada pelo mesmo se mantém */
+
+}
+
+.exemplo2 {
+    opacity: 0.5; /* Muda a aopacidade do elemento de 0 a 1, mantendo sua área */
+}
+
+.exemplo3 {
+    display: none; /* Deixa de exibir o elemento, ocultando seu conteúdo e a área ocupada pelo mesmo */
+}
