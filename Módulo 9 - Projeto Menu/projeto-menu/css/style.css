@@ -6,6 +6,21 @@
 
 body {
     background-color: rgb(221, 221, 221);
+    font-family: 'Arial', sans-serif;
+}
+
+.logo {
+    color: white;
+    letter-spacing: -3px;
+}
+
+.logo span:first-child {
+    color: rgb(255, 100, 0);
+}
+
+.logo span:last-child {
+    font-size: 12px;
+    letter-spacing: normal;
 }
 
 .header {
@@ -19,6 +34,18 @@ body {
     padding: 0 20px;
 }
 
-h1 {
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li a {
+    padding: 17px;
     color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu li a:hover {
+    background-color: rgb(255, 100, 0);
 }
