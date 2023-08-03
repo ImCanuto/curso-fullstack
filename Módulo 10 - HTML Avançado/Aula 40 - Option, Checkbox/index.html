@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="thanks.html" method="GET">      <!-- form: Não tem efeito visual na tela, serve para encapsular o formulário. action: define o que ocorre após a inserção dos dados. method=GET: faz com que os dados sejam enviados através da URL. method=POST: envia os métodos através do backend (mais adequado para formas com senhas e dados pessoais) -->
+        <label for="algo">Algo</label>  <!-- Tag inserida antes de um input, para identificar para o usuário o que deve ser feito -->
+        <input name="algo" type="text" placeholder="Digite algo" id="algo">     <!-- input: Tag para inserção de texto. placeholder: texto que fica dentro da caixa de texto, antes do usuário digitar algo. name: nome dado para o campo input, que será usado na coleta dos dados -->
+        
+        <br><br>        <!-- Quebra de linha para quebrar o comportamento inline das tags -->
+
+        <label for="email">E-mail</label>
+        <input name="email" type="email" placeholder="E-mail" id="email">       <!--  type email: facilita a inserção de e-mails em ambiente mobile -->
+       
+        <br><br>
+
+        <label for="senha">Senha</label>
+        <input name="senha" type="password" placeholder="Senha" id="senha">     <!--  type password: oculta o que é digitado-->
+        
+        <br><br>
+
+        <label for="">Sexo:</label>
+        <input name="sexo" type="radio" value="masculino" id="m"> <label for="m">Masculino.</label>       <!-- type="radio": círculo de seleção -->
+        <input name="sexo" type="radio" value="feminino" id="f"> <label for="f">Feminino.</label>       <!-- Mesmo name faz com que apenas um possa ser lelecionado (quando o type for "radio") -->
+        <input name="sexo" type="radio" value="outro" id="outro"> <label for="outro">Outro.</label>     <!-- value: valor que será passado pelo formulário, sem isso o valor seria passado como "on" -->
+
+        <br><br>
+
+        <label for="">Habilidades:</label>
+        <input name="skills" type="checkbox" value="html" id="html"> <label for="html">HTML</label>     <!-- Sendo o "id" do input o mesmo passado pelo "for" do label, ao clicar no texto do label o checkbox (ou outros inputs) será marcado -->
+        <input name="skills" type="checkbox" value="css" id="css"> <label for="css">CSS</label>
+        <input name="skills" type="checkbox" value="js" id="js"> <label for="js">JavaScript</label>
+
+        <br><br>
+
+        <input type="button" value="Enviar">        <!-- type button: maneira antiga de declarar botões, descontinuada -->
+        <button>Enviar</button>     <!-- tag específica para botões -->
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="thanks.html" method="GET">      <!-- form: Não tem efeito visual na tela, serve para encapsular o formulário. action: define o que ocorre após a inserção dos dados. method=GET: faz com que os dados sejam enviados através da URL. method=POST: envia os métodos através do backend (mais adequado para formas com senhas e dados pessoais) -->
+        <label for="">Algo</label>  <!-- Tag inserida antes de um input, para identificar para o usuário o que deve ser feito -->
+        <input name="algo" type="text" placeholder="Digite algo">     <!-- input: Tag para inserção de texto. placeholder: texto que fica dentro da caixa de texto, antes do usuário digitar algo. name: nome dado para o campo input, que será usado na coleta dos dados -->
+        
+        <br><br>        <!-- Quebra de linha para quebrar o comportamento inline das tags -->
+
+        <label for="">E-mail</label>
+        <input name="email" type="email" placeholder="E-mail">       <!--  type email: facilita a inserção de e-mails em ambiente mobile -->
+       
+        <br><br>
+
+        <label for="">Senha</label>
+        <input name="senha" type="password" placeholder="Senha">     <!--  type password: oculta o que é digitado-->
+        
+        <br><br>
+
+        <input type="button" value="Enviar">        <!-- type button: maneira antiga de declarar botões, descontinuada -->
+        <button>Enviar</button>     <!-- tag específica para botões -->
+
+    </form>
+
+</body>
+</html>
