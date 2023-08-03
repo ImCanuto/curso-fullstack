@@ -1,0 +1,16 @@
+* {     /* Regra para todas as tags */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: gray;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 40px;
+}

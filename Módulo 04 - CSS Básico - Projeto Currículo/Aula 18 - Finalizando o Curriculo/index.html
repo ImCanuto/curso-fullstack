@@ -1,0 +1,130 @@
+<!-- Com o "atalho" html:5, o vscode já preenche com uma estrutura base -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres da pagina -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Canuto Sales</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Tag para importar o css para a página (link:css) -->
+</head>
+<body>
+    
+    <div class="container">
+        <div class="profile">
+            <img src="Samuel.jpg" alt="Foto de Samuel Canuto" id="fotoPrincipal"> 
+            <!--
+                * Tag para inserção de imagens, sendo "src" a origem da imagem.
+                * "alt" é um texto alternaivo caso a imagem não possa ser carregada. Também é muito útil no quesito acessibilidade, pois deficientes visuais utilizam leitores de tela, além de ser utilizado pelos dispositivos de busca. 
+            -->
+            
+            <h1>Samuel Canuto Sales</h1>
+            <h2>Universitário | Programador</h2>
+
+            <a href="http://linkedin.com/in/samuel-canuto-sales-b88a2a239/" target="_blank" class="social-links">
+                <img src="logo-linkedin.png" alt="Linkedin" class="social-icons">
+            </a>
+
+            <a href="http://github.com/ImCanuto" target="_blank" class="social-links">
+                <img src="logo-github.png" alt="Github" class="social-icons github">
+            </a>   
+
+            <a href="http://Instagram.com/_samuelcanuto" target="_blank" class="social-links">
+                <img src="logo-instagram.png" alt="Instagram" class="social-icons">
+            </a>   
+            <!-- 
+                * Tag "âncora", para referenciar links. Sendo "href" a refeência a Hiperlink.
+                * "target blank" abre o link referenciado em outra aba, sem sair do seu site. 
+            -->
+        </div>
+
+        <p>
+            Estudante de Sistemas de Informação pela Universidade Tecnológica Federal do Paraná e ex chefe executivo da empresa de intermediação de produtos internacionais Odin Stock. Tenho experiência em lidar com pessoas, dedicação para solucionar problemas e para aprender coisas novas.
+            <!-- 
+                * Tag "b" (bold),  deixa o texto em negrito e tem um valor apenas visual.
+                * Também poderia ter usado a tag "strong" , que tem o mesmo efeito, porém, semanticamente, quer dizer que o texto dentro da tag é algo "forte"/importante.
+                * Exemplo do professor: "Então quando uma ferramenta de busca, como o Google, pesquisar sobre algo, a palavra envolta da tag "strong" será considerada uma palavra de relevância."
+                * A tag "i" (italic), deixa o texto em itálico e tem um valor apenas visual
+                * A tag "em" também deixa em itálico, tem quase o mesmo valor semântico da tag "strong", sendo algo não tão importante, porém que queremos dar certa ênfase. 
+            -->
+        </p>
+
+        <h3>Idiomas</h3>
+        <ul>
+            <li><b>Inglês |</b> Avançado</li>
+        </ul>
+        
+        <h3>Habilidades</h3>
+        <ul>
+            <li><b>Python |</b> Básico</li>
+            <li><b>C |</b> Básico</li>
+            <li><b>C++ |</b> Básico</li>
+            <li><b>HTML |</b> Básico</li>
+            <li><b>CSS |</b> Básico</li>
+            
+        </ul>
+        
+        <h3>Formação</h3>
+        <p>
+            <ul>
+                <li>
+                    <h4>
+                        2021 - 2025 | Bacharelado em Sistemas de Informação
+                    </h4>
+                    <h5>
+                        Universidade Tecnológica Federal do Paraná - UTFPR
+                    </h5>
+                </li>
+            </ul>
+        </p>
+
+        <h3>Cursos</h3>
+        <p>
+            <ul>
+                <li>
+                    <h4>
+                        2023 - até o momento | Formação Full Stack Javascript
+                    </h4>
+                    <h5>
+                        Thiago M. Medeiros
+                    </h5>
+                </li>
+                <li>
+                    <h4>
+                        2023 - até o momento | Curso.dev
+                    </h4>
+                    <h5>
+                        Filipe Deschamps
+                    </h5>
+                </li>
+            </ul>
+        </p>
+        <h3>Experiências Profissionais</h3>
+        <ul class="jobs-list">
+            <li>
+                <h4>Odin Stock</h4>
+                <h5>CEO - Chief Executive Officer</h5>
+                <p>
+                    Empresa de intermediação de produtos internacionais, criada por mim em 2020 e encerrada em 2021 visando o foco em meus estudos como programador e desenvolvedor.
+                </p>
+            </li>
+            <li>
+                <h4>Diretoria de Gestão de Tecnologia da Informação - UTFPR</h4>
+                <h5>Estagiário</h5>
+                <p>
+                    Desenvolvimento de aplicações web (front end), utilizando as tecnologias: HTML 5 e CSS 3.
+                </p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        Developed by: Samuel Canuto Sales
+    </div>
+    
+</body>
+</html>
