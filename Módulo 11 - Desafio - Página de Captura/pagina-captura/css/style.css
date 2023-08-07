@@ -45,7 +45,7 @@ body {
     width: 80%;
 }
 
-button {
+.button {
     width: 80%;
     padding: 18px;
     border-radius: 5px;
@@ -54,6 +54,10 @@ button {
     color: white;
     margin-top: 15px;
     font-size: 20px;
+}
+
+.button:hover {
+    background-color: rgb(40, 40, 255);
 }
 
 h1 {
