@@ -1,0 +1,3 @@
+@import url(../css/comuns.css);
+@import url(../css/variaveis.css);      /* Forma de utilizar o import */
+                                        /* Também poderia ser @import "arquivo.css" */

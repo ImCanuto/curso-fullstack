@@ -1,0 +1,12 @@
+:root {     /* "Raiz" para a criação de variáveis*/
+    --primary-color: rgb(192, 244, 6);     /* Forma de declarar uma variável */
+    --secondary-color: rgb(135, 118, 232);
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);        /* Forma de utilizar uma variável */
+}
+
+p {
+    color: var(--secondary-color);
+}
