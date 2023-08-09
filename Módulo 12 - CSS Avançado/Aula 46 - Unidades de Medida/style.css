@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.box2{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 140, 255);
+}
+
+/*
+- px: unidade de medida mais utilizada normalmente
+- em: unidade de medida que se baseia em um tamanho de fonte definido no seu elemento "pai".
+        ex: body { font-size: 15px;}, se colocarmos uma div filha de body com font-size = 2em, a fonte terá 30px.
+        Sendo que, se surgir uma necessidade de alteração em vários objetos dentro do body, será muito mais fácil modificar apenas o body,
+        evitando alterações em diversos objetos manualmente.
+- rem: basicamente mesma regra de "em", porém se baseando no font size definido no :root.
+- vw: significa viewport widith, ou seja, definirá a largura de acordo com o espaço visível em tela, bem semelhante à porcentagem,
+      o que melhora a responsividade do projeto
+- vh: significa viewport height, tendo o mesmo comportamento do "vw", porém alterando a altura.
+*/
