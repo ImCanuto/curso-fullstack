@@ -1,0 +1,17 @@
+body {
+  margin: 100px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  transition-duration: 500ms;
+}
+
+.box:hover {
+  background-color: red;
+  transform: rotate(270deg) scale(12, 3); /* Aceita vários tipos de transform na mesma linha */
+}
+
+/* Mais propriedades em w3schools.com */
