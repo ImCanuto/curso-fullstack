@@ -1,0 +1,35 @@
+body {
+  margin: 100px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+
+  animation: boxAnimation; /* Utilizando uma das animações criadas */
+  animation-duration: 2000ms; /* Duração da animação */
+  animation-iteration-count: infinite; /* Quantidade de repetições da animação */
+  animation-timing-function: ease-in; /* Mesma fincionalidade do transition */
+  animation-direction: alternate; /* Alterna a forma de execução da animação */
+}
+
+@keyframes boxAnimation {
+  /* Declaração de uma animação*/
+  0% {
+    /* Permite a utilização de porcentagens, possibilitando uma enorme gama de animações */
+    background-color: black;
+    border: 0 solid aquamarine;
+  }
+
+  50% {
+    border: 20px solid aquamarine;
+    background-color: rgb(38, 38, 38);
+  }
+
+  100% {
+    border: 0 solid aquamarine;
+    transform: rotate(360deg);
+    background-color: black;
+  }
+}
