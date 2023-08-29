@@ -1,7 +1,8 @@
 body {
-    background: gray;
+  background: gray;
 }
 
-.foto { /* ".classe" ou "#id" para estilizar classes ou ids criados dentro do arquivo html */
-    width: 500px
+.foto {
+  /* ".classe" ou "#id" para estilizar classes ou ids criados dentro do arquivo html */
+  width: 500px;
 }

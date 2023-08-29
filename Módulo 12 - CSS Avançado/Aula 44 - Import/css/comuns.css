@@ -1,7 +1,9 @@
-h1, h2, h3 {
-    color: var(--primary-color);        /* Forma de utilizar uma variável */
+h1,
+h2,
+h3 {
+  color: var(--primary-color); /* Forma de utilizar uma variável */
 }
 
 p {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }

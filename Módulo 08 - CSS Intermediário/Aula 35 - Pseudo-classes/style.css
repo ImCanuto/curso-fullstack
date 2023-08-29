@@ -1,48 +1,54 @@
 a {
-    color: red;
+  color: red;
 }
 
-a:hover {   /* Forma de declarar uma pseudo-classe */
-    color: green;
-    font-weight: bold;
-    font-size: 50px;
+a:hover {
+  /* Forma de declarar uma pseudo-classe */
+  color: green;
+  font-weight: bold;
+  font-size: 50px;
 }
 
 /* Com o "Hover", sempre que o usuário passar o mouse pelo objeto, serão aplicadas as regras descritas */
 
-a:hover + .caixa {  /* Forma de utilizar o hover para interagir com outros objetos */
-    display: block;
+a:hover + .caixa {
+  /* Forma de utilizar o hover para interagir com outros objetos */
+  display: block;
 }
 
-a:visited {     /* Estilizar um link já visitado pelo usuário*/
-    color: lime;
+a:visited {
+  /* Estilizar um link já visitado pelo usuário*/
+  color: lime;
 }
 
 a:active {
-    color: pink; /* Estilizar o comportamento de um link quando o usuário interagir com ele (clicar) */
+  color: pink; /* Estilizar o comportamento de um link quando o usuário interagir com ele (clicar) */
 }
 
 .caixa {
-    display: none;
-    width: 100px;
-    height: 100px;
-    background-color: aquamarine;
+  display: none;
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
 }
 
 .caixa:hover {
-    width: 150px;
-    height: 150px;
-    background: black;
+  width: 150px;
+  height: 150px;
+  background: black;
 }
 
-ul li:first-child {  /* Estilizar o primeiro "filho" apenas */
-    color: red;
+ul li:first-child {
+  /* Estilizar o primeiro "filho" apenas */
+  color: red;
 }
 
-ul li:last-child {  /* Estilizar o último "filho" apenas */
-    color: blue;
+ul li:last-child {
+  /* Estilizar o último "filho" apenas */
+  color: blue;
 }
 
-.exemplo p:nth-child(3) {   /* Estilizar algum "filho" pela posição */
-    color: chocolate;
+.exemplo p:nth-child(3) {
+  /* Estilizar algum "filho" pela posição */
+  color: chocolate;
 }

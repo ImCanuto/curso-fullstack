@@ -1,20 +1,20 @@
 body {
-    background-color: #dfdfdf;
+  background-color: #dfdfdf;
 }
 
 p {
-    color: #222222;
+  color: #222222;
 }
 
 #fotoPrincipal {
-    width: 200px;
-    border: 2px solid #FFFFFF;    /* shorthand - simplifica o código */
-    border-radius: 50%; /* border-radius também aceita 4 valores referentes as bordas, permitindo criar vários formatos de borda */
+  width: 200px;
+  border: 2px solid #ffffff; /* shorthand - simplifica o código */
+  border-radius: 50%; /* border-radius também aceita 4 valores referentes as bordas, permitindo criar vários formatos de borda */
 
-/*  border-width: 5px;
+  /*  border-width: 5px;
     border-style: solid;
     border-color: black;    */
 
-    margin: 30px;    /* shorthand - também podemos editar separadamente (top, right, bottom, left) */
-    box-shadow: 0px 0px 10px rgb(112, 112, 112);
+  margin: 30px; /* shorthand - também podemos editar separadamente (top, right, bottom, left) */
+  box-shadow: 0px 0px 10px rgb(112, 112, 112);
 }

@@ -1,24 +1,23 @@
 h1 {
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 15px 15px 3px green; /* Define respectivamente as distâncias verticais e horizontais da sombra e o "blur" */
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 15px 15px 3px green; /* Define respectivamente as distâncias verticais e horizontais da sombra e o "blur" */
 }
 
 p {
-    font-size: 30px;
-    color: red;
-    text-align: justify;
-    font-weight: bold;
-    font-style: italic;
-    font-variant: small-caps; /* Depende da fonte, algumas não possuem essa opção */
-    text-transform: uppercase;
-    text-indent: 50px; /* Adiciona uma identação no início do parágrafo */
-    word-spacing: 5px;
-    line-height: 50px; /* Modifica o espaço entre as linhas */
+  font-size: 30px;
+  color: red;
+  text-align: justify;
+  font-weight: bold;
+  font-style: italic;
+  font-variant: small-caps; /* Depende da fonte, algumas não possuem essa opção */
+  text-transform: uppercase;
+  text-indent: 50px; /* Adiciona uma identação no início do parágrafo */
+  word-spacing: 5px;
+  line-height: 50px; /* Modifica o espaço entre as linhas */
 }
 
 a {
-    text-decoration: none; /* Remove o soblinhado do link */
-    letter-spacing: 20px;
-
+  text-decoration: none; /* Remove o soblinhado do link */
+  letter-spacing: 20px;
 }

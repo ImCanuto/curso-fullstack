@@ -1,9 +1,9 @@
 div {
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
-    overflow: hidden; 
-    /*  Hidden: "corta" a parte do texto que extrapolou o limite da div
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  overflow: hidden;
+  /*  Hidden: "corta" a parte do texto que extrapolou o limite da div
     Scroll : adiciona uma barra de rolagem para permitir a leitura do conteúdo
     Auto: lida de maneira automática com o texto*/
 }

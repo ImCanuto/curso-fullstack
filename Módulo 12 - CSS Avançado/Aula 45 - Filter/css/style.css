@@ -1,20 +1,23 @@
-:root {     /* "Raiz" para a criação de variáveis*/
-    --primary-color: rgb(192, 244, 6);     /* Forma de declarar uma variável */
-    --secondary-color: rgb(135, 118, 232);
+:root {
+  /* "Raiz" para a criação de variáveis*/
+  --primary-color: rgb(192, 244, 6); /* Forma de declarar uma variável */
+  --secondary-color: rgb(135, 118, 232);
 }
 
-h1, h2, h3 {
-    color: var(--primary-color);        /* Forma de utilizar uma variável */
+h1,
+h2,
+h3 {
+  color: var(--primary-color); /* Forma de utilizar uma variável */
 }
 
 p {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 img {
-    filter: hue-rotate(180deg);      /* Forma de aplicar filtros */
+  filter: hue-rotate(180deg); /* Forma de aplicar filtros */
 }
 
 .box {
-    filter: blur(2px);      /* Funciona em outros elementos, não só imagens */
+  filter: blur(2px); /* Funciona em outros elementos, não só imagens */
 }

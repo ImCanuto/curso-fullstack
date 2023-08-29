@@ -1,21 +1,20 @@
 body {
-    margin: 100px;
+  margin: 100px;
 }
 
 .box {
-    width: 300px;
-    height: 300px;
-    background-color: black;
-    /*transition-duration: 500ms;     /* Possibilita uma transição mais suave do black para o red aplicado na box e na box:hover respectivamente */
-    /*transition-property: background-color widith;      /* Aplicará a regra do hover somente na propriedade selecionada. Caso fosse utilizado "all", aplicaria a propriedade para todas as regras do hover */
-    /*transition-timing-function: ease;  /* ease-in, ease-out, ease-in-out, modificam o inicial/final da transição aplicada */
-                                    /* Obs: há uma funcionalidade no dev-tools do chrome que permite criar um transiction-timing-function personalizado chamada cubic-bezier */ 
-    /*transition-delay: 200ms; /* Define o tempo de atraso para começar a animação */   
-    transition: width 500ms ease-in 200ms;  /* Shorthand que define respectivamente: transition-property, transition-duration, transition-timing-function e transition-delay */
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  /*transition-duration: 500ms;     /* Possibilita uma transição mais suave do black para o red aplicado na box e na box:hover respectivamente */
+  /*transition-property: background-color widith;      /* Aplicará a regra do hover somente na propriedade selecionada. Caso fosse utilizado "all", aplicaria a propriedade para todas as regras do hover */
+  /*transition-timing-function: ease;  /* ease-in, ease-out, ease-in-out, modificam o inicial/final da transição aplicada */
+  /* Obs: há uma funcionalidade no dev-tools do chrome que permite criar um transiction-timing-function personalizado chamada cubic-bezier */
+  /*transition-delay: 200ms; /* Define o tempo de atraso para começar a animação */
+  transition: width 500ms ease-in 200ms; /* Shorthand que define respectivamente: transition-property, transition-duration, transition-timing-function e transition-delay */
 }
 
-
 .box:hover {
-    width: 500px;
-    background-color: red;
+  width: 500px;
+  background-color: red;
 }

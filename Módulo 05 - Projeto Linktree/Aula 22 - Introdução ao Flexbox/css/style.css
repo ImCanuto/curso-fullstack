@@ -1,50 +1,53 @@
-* {     /* Com o * a regra será aplicado para tudo */
-    margin: 0;      /* Removendo a margem e o paddin de tudo*/
-    padding: 0;
+* {
+  /* Com o * a regra será aplicado para tudo */
+  margin: 0; /* Removendo a margem e o paddin de tudo*/
+  padding: 0;
 }
 
-html, body {
-    color: white;
-    height: 100%;
+html,
+body {
+  color: white;
+  height: 100%;
 }
 
 body {
-    background: #1a1b2c;
-    background: linear-gradient(180deg, #1a1b2c 0%, #1b1d41 100%);
-    font-family: 'Raleway', sans-serif;
+  background: #1a1b2c;
+  background: linear-gradient(180deg, #1a1b2c 0%, #1b1d41 100%);
+  font-family: "Raleway", sans-serif;
 }
 
 h1 {
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-weight: 100;
-    font-size: 24px;
-    margin-bottom: 5px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  margin-bottom: 5px;
 }
 
 h2 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .avatar {
-    width: 80px;
-    border-radius: 50%;
-    border: 3px solid white;
-    box-shadow: 0 0 5px white;
+  width: 80px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 5px white;
 }
 
 .profile {
-    margin-top: 20px;
-    text-align: center;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .social {
-    display: flex;      /* Alinha a calsse e seus "filhos" lado a lado*/
-    /*justify-content: center;     Só funciona com o " display flex" */
-    justify-content: space-around;
-    list-style: none;
-    margin: 20px 0;
+  display: flex; /* Alinha a calsse e seus "filhos" lado a lado*/
+  /*justify-content: center;     Só funciona com o " display flex" */
+  justify-content: space-around;
+  list-style: none;
+  margin: 20px 0;
 }
 
-.social img {       /* Regra aninhada */
-    width: 30px;
+.social img {
+  /* Regra aninhada */
+  width: 30px;
 }

@@ -1,83 +1,83 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
 
 body {
-    background-color: rgb(221, 221, 221);
-    font-family: 'Arial', sans-serif;
+  background-color: rgb(221, 221, 221);
+  font-family: "Arial", sans-serif;
 }
 
 .logo {
-    color: white;
-    letter-spacing: -3px;
+  color: white;
+  letter-spacing: -3px;
 }
 
 .logo span:first-child {
-    color: rgb(255, 100, 0);
+  color: rgb(255, 100, 0);
 }
 
 .logo span:last-child {
-    font-size: 12px;
-    letter-spacing: normal;
+  font-size: 12px;
+  letter-spacing: normal;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    box-shadow: 0 0 10px black;
-    padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  box-shadow: 0 0 10px black;
+  padding: 0 20px;
 }
 
 .menu {
-    display: flex;
+  display: flex;
 }
 
 .menu li {
-    position: relative;
+  position: relative;
 }
 
 .menu li a {
-    display: block;
-    padding: 17px;
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
+  display: block;
+  padding: 17px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 .menu li:hover {
-    background-color: rgb(255, 100, 0);
+  background-color: rgb(255, 100, 0);
 }
 
 .menu > li:hover > .submenu,
 .submenu > li:hover > .submenu {
-    display: block;
+  display: block;
 }
 
 .submenu {
-    background-color: rgb(255, 100, 0);
-    display: none;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    min-width: 105%;    /* Define a  largura mínima, de acordo com a largura do objeto "pai" */
+  background-color: rgb(255, 100, 0);
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  min-width: 105%; /* Define a  largura mínima, de acordo com a largura do objeto "pai" */
 }
 
 .submenu li:hover {
-    background-color: rgb(255, 85, 0);
+  background-color: rgb(255, 85, 0);
 }
 
 .submenu li {
-    position: relative;
+  position: relative;
 }
 
 .submenu li .submenu {
-    top: 0;
-    left: 100%;
+  top: 0;
+  left: 100%;
 }
