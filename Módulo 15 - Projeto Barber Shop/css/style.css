@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  height: 100vh;
+  background-image: url(../images/bg-home.jpg);
+  background-size: cover;
+}
+
+.home .header .nav .ul {
+  display: flex;
+  list-style: none;
+}
