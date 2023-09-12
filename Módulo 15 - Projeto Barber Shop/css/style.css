@@ -12,10 +12,19 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+
+
+/**************
+*     HOME
+**************/
+
+
+
 .home {
   height: 100vh;
   background-image: url(../images/bg-home.jpg);
   background-size: cover;
+  position: relative;
 }
 
 .home .header{
@@ -35,7 +44,8 @@ body {
 .home .header .nav ul li{
   display: flex;
   align-items: center;
-  margin: 0 10px;
+  justify-content: center;
+  width: 150px;
 }
 
 .home .header .nav ul li a{
@@ -54,4 +64,44 @@ body {
 
 .home .header .nav ul li .logo{
   margin: 30px;
+}
+
+
+
+/********************
+*     HOME - Banner
+*********************/
+
+
+
+.home .banner{
+  text-align: center;
+  color: white;
+  position: absolute;
+  height: 270px;
+  width: 770px;
+  top: 50%;
+  left: 50%;
+  margin-top: -75px;
+  margin-left: -385px;
+  background-color: blueviolet;
+}
+
+.home .banner span{
+  display: block;
+}
+
+.home .banner .slogan1{
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 14px;
+}
+
+.home .banner h1{
+  font-size: 120px;
+}
+
+.home .banner .slogan2{
+  margin-bottom: 15px;
 }
